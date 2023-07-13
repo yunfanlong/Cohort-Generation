@@ -19,9 +19,9 @@ from tqdm.auto import tqdm
 tqdm.pandas()
 
 
-from architecture.quick_load import *
-from architecture.model import *
-from architecture.helper import *
+from utils.quick_load import *
+from utils.model import *
+from utils.helper import *
 
 
 def load_data_bunch():
